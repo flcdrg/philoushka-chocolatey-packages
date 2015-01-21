@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>mirth</id>
+    <title>Mirth Connect 3</title>
+    <version>3.1.1.7461</version>
+    <authors>Phil Campbell</authors>
+    <owners>Phil Campbell</owners>
+    <summary>Mirth Connect is an open-source healthcare integration engine, specifically designed for HL7 message integration. It provides the necessary tools for developing, testing, deploying, and monitoring interfaces.</summary>
+    <description>
+**Connect to any system over any protocol.**
+
+Mirth Connect supports numerous transfer protocols used across the healthcare industry.
+
+**Easily transform, filter, and route your data.**
+
+Mirth Connect supports numerous data formats and healthcare data standards.
+
+**Quickly create interfaces with drag-and-drop scripting.**
+
+Mirth Connect's template driven approach to creating interfaces allows you to specify the type of message you will be receiving or sending, and then create your mappings and transformations using drag-and-drop throughout the application.
+
+**Store your data where you want.**
+
+Mirth Connect includes an embedded database to get you up and running quickly. When you're ready to go into production, you can store your configuration and message data in a PostgreSQL, Microsoft SQL Server, Oracle or MySQL database.
+
+**Monitor and configure your interfaces.**
+
+Once your interfaces have been deployed, Mirth Connect provides extensive monitoring capabilities. The dashboard provides message statistics as well as active connection statuses.
+
+**Reprocess and manage your messages.**
+
+When you run into problems with your interface or your message data, Mirth Connect makes it easy to reprocess and optionally replace messages from the archive.
+
+**Send alerts and notifications.**
+
+Mirth Connect lets you configure email alerts so that you know if there is a problem with your interface.</description>
+    <projectUrl>http://www.mirthcorp.com/products/mirth-connect</projectUrl>
+    <tags>mirth hl7</tags>
+    <copyright>Mirth</copyright>
+    <licenseUrl>http://www.mirthcorp.com/products/mirth-connect#4</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
+    <iconUrl>https://cdn.rawgit.com/philoushka/chocolatey-packages/master/mirth/icon.png</iconUrl>
+    <dependencies>
+      <dependency id="javaruntime" version="7.0.71" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
