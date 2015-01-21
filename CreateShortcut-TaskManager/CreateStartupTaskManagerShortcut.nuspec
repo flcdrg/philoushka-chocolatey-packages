@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>startuptaskmgr</id>
+    <title>Startup Task Manager Minimized</title>
+    <version>1.0.0</version>
+    <authors>Phil Campbell</authors>
+    <owners>Phil Campbell</owners>
+    <iconUrl>http://i.imgur.com/w4HbtiG.png</iconUrl>
+    <description>Creates a taskmgr.exe shortcut in the current user's Start Menu Startup directory. It sets the shortcut to be minimized on startup.</description>
+    <tags>task-manager taskmgr</tags>
+  </metadata>
+</package>
