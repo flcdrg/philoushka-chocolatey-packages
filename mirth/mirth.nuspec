@@ -35,7 +35,10 @@ When you run into problems with your interface or your message data, Mirth Conne
 
 **Send alerts and notifications.**
 
-Mirth Connect lets you configure email alerts so that you know if there is a problem with your interface.</description>
+Mirth Connect lets you configure email alerts so that you know if there is a problem with your interface.
+
+![](http://i.imgur.com/KCu6LZ4.png)
+</description>
     <projectUrl>http://www.mirthcorp.com/products/mirth-connect</projectUrl>
     <tags>mirth hl7</tags>
     <copyright>Mirth</copyright>
