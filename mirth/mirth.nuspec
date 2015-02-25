@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>mirth</id>
     <title>Mirth Connect 3</title>
-    <version>3.1.1.7461</version>
+    <version>3.2.0.7628</version>
     <authors>Phil Campbell</authors>
     <owners>Phil Campbell</owners>
     <summary>Mirth Connect is an open-source healthcare integration engine, specifically designed for HL7 message integration. It provides the necessary tools for developing, testing, deploying, and monitoring interfaces.</summary>
@@ -43,7 +42,7 @@ Mirth Connect lets you configure email alerts so that you know if there is a pro
     <tags>mirth hl7</tags>
     <copyright>Mirth</copyright>
     <licenseUrl>http://www.mirthcorp.com/products/mirth-connect#4</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/philoushka/chocolatey-packages/master/mirth/icon.png</iconUrl>
     <dependencies>
       <dependency id="javaruntime" version="7.0.71" />
