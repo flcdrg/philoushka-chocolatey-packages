@@ -3,7 +3,7 @@
   <metadata>
     <id>mirth</id>
     <title>Mirth Connect 3</title>
-    <version>3.3.1.7856</version>
+    <version>3.4.0.8000</version>
     <authors>Phil Campbell</authors>
     <owners>Phil Campbell</owners>
     <summary>Mirth Connect is an open-source healthcare integration engine, specifically designed for HL7 message integration. It provides the necessary tools for developing, testing, deploying, and monitoring interfaces.</summary>
@@ -47,7 +47,9 @@ Mirth Connect lets you configure email alerts so that you know if there is a pro
     <dependencies>
       <dependency id="javaruntime" version="7.0.71" />
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <mailingListUrl>http://www.mirthcorp.com/community/forums/</mailingListUrl>
+    <packageSourceUrl>https://github.com/philoushka/chocolatey-packages</packageSourceUrl>
+    <releaseNotes>http://www.mirthcorp.com/community/wiki/display/mirth/Mirth+Connect+3.4.0+-+Release+Notes</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
