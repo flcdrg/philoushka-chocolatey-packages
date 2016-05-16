@@ -24,4 +24,12 @@ $packageArgs = @{
   checksumType64= 'md5' #default is checksumType
 }
 
+# Ensure mcmanager is stopped
+$p = Get-Process -Name mcmanager -ErrorAction Ignore
+
+if ($p)
+{
+    $p.Kill()
+}
+
 Install-ChocolateyPackage @packageArgs
